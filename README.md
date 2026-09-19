@@ -5,7 +5,7 @@ A full-stack customer support ticketing CRM built for the Datastraw Technologies
 Built with **React (Vite)** on the frontend, **Node.js + Express** on the backend, **MongoDB** as the database, and **JWT authentication** to secure agent access.
 
 **Live App:** [https://crm-amber-three-19.vercel.app]
-**Demo Video:** [   https://crm-production-f7bd.up.railway.app]
+**Backend URL:** [   https://crm-production-f7bd.up.railway.app]
 
 ---
 
