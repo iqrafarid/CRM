@@ -84,12 +84,6 @@ App runs at `http://localhost:5173`.
 
 All `/api/tickets/*` routes require a valid JWT sent as `Authorization: Bearer <token>`.
 
-### Screenshots
-
-*(add screenshots of the login page, ticket list, create form, and detail page here)*
-
----
-
 ## Features
 
 - Create tickets with customer name, email, subject, description
