@@ -1,0 +1,62 @@
+.auth-page {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.auth-page h1 {
+  font-size: 1.4rem;
+  margin: 0 0 24px;
+  color: var(--text-primary);
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: left;
+}
+
+.auth-page input {
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+}
+
+.auth-page input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+.auth-page button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.auth-page button:hover:not(:disabled) {
+  background: var(--accent-hover);
+}
+
+.auth-page p {
+  margin-top: 18px;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+}
+
+.auth-page p a {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
